@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Basheer AI 2035</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Cairo',system-ui}
+body{min-height:100vh;background:#050507;color:#fff;overflow:hidden;display:flex;justify-content:center;align-items:center;padding:20px;position:relative}
+.bg{position:fixed;inset:0;z-index:-1;background:radial-gradient(800px at 20% -10%,#7c3aed33,transparent),radial-gradient(600px at 90% 90%,#06ffa533,transparent),radial-gradient(500px at 50% 50%,#ffffff0a,transparent),#050507}
+.orb{position:absolute;width:500px;height:500px;border-radius:50%;filter:blur(80px);opacity:.4;animation:float 8s infinite ease-in-out}
+.orb1{background:#7c3aed;top:-100px;left:-100px}
+.orb2{background:#00ffa3;bottom:-100px;right:-100px;animation-delay:-4s}
+@keyframes float{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(30px,-30px) scale(1.1)}}
+.card{width:100%;max-width:400px;background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(40px);border-radius:32px;padding:32px 28px;text-align:center;box-shadow:0 20px 80px rgba(0,0,0,.8),inset 0 1px 0 rgba(255,255,255,.1);animation:up .8s ease}
+@keyframes up{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.live{display:inline-flex;align-items:center;gap:8px;background:#00ff88;color:#000;padding:6px 14px;border-radius:100px;font-size:11px;font-weight:900;letter-spacing:.5px;box-shadow:0 0 20px #00ff8855}
+.live i{width:7px;height:7px;background:#000;border-radius:50%;animation:pulse 1.5s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.logo{width:80px;height:80px;margin:18px auto;background:linear-gradient(135deg,#fff,#aaa);border-radius:22px;display:flex;align-items:center;justify-content:center;font-size:40px;font-weight:900;color:#000;box-shadow:0 10px 30px rgba(255,255,255,.2),inset 0 1px 0 #fff}
+h1{font-size:30px;font-weight:900;letter-spacing:-.5px;margin-top:6px}
+h1 span{background:linear-gradient(90deg,#fff,#888);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.sub{color:#888;font-size:13px;line-height:1.8;margin:10px 0 22px}
+.priceBox{background:rgba(0,0,0,.4);border:1px solid rgba(255,255,255,.06);border-radius:20px;padding:16px;margin:20px 0}
+.price{font-size:54px;font-weight:900;line-height:1}
+.price small{font-size:14px;color:#666;font-weight:700}
+.btn{position:relative;width:100%;background:#fff;color:#000;border:none;padding:18px;border-radius:16px;font-size:16px;font-weight:900;cursor:pointer;overflow:hidden;transition:.2s;box-shadow:0 10px 30px rgba(255,255,255,.15)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 15px 40px rgba(255,255,255,.25)}
+.btn::after{content:"";position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(0,0,0,.1),transparent);animation:shine 2.5s infinite}
+@keyframes shine{0%{left:-100%}100%{left:100%}}
+.list{margin-top:22px;text-align:right;display:grid;gap:10px}
+.item{display:flex;align-items:center;gap:10px;font-size:13px;color:#aaa;background:rgba(255,255,255,.03);padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.05)}
+.item b{color:#fff}
+.check{width:22px;height:22px;background:#00ff88;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#000;font-size:12px;flex-shrink:0}
+.foot{margin-top:18px;font-size:11px;color:#444}
+</style>
+</head>
+<body>
+<div class="bg"><div class="orb orb1"></div><div class="orb orb2"></div></div>
+<div class="card">
+<div class="live"><i></i> LIVE • 2035</div>
+<div class="logo">B</div>
+<h1><span>بشير AI 2035</span> 🤖</h1>
+<p class="sub">الجيل الجديد من الذكاء الاصطناعي - أسرع، أذكى، بدون حدود</p>
+<div class="priceBox"><div class="price">49 <small>ريال / شهرياً</small></div></div>
+<button class="btn" onclick="location.href='https://basheerai2035.vercel.app/pay'">ادفع الآن ⚡ تفعيل فوري</button>
+<div class="list">
+<div class="item"><div class="check">✓</div><b>ذكاء اصطناعي غير محدود</b></div>
+<div class="item"><div class="check">✓</div><b>دعم فني 24/7</b> مباشر</div>
+<div class="item"><div class="check">✓</div><b>تفعيل فوري</b> بعد الدفع</div>
+<div class="item"><div class="check">✓</div>يعمل على basheerai2035.vercel.app</div>
+</div>
+<div class="foot">© 2035 Basheer AI • صنع في المستقبل</div>
+</div>
+</body>
+</html>
